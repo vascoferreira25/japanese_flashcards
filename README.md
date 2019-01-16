@@ -7,14 +7,19 @@ A simple game made in Python with Pygame to learn Japanese characters.
 - Python 3+
 - Pygame `pip install pygame`
 
-## How to play
-To play this game, download this repository, extract it and go to its folder, then open CMD and run `python main.py`.
+## How to get the game
+1. Download this repository; 
+2. Extract it and go to its folder; 
+3. Open CMD and run `python main.py`.
 
+## How to play it
+1. Select an answer, if it's not the correct answer, that selection will turn red, if it's correct it will turn green.
+2. Get a new question by pressing the yellow button "Next...".
+
+**Info:** 
 The score card shows the correct answers `C:` and the wrong ones `W:`. 
 Try to keep the correct answers above the wrong ones :smile:
 
-Select an answer, if it's not the correct answer, that selection will turn red, if it's correct it will turn green.
-Get a new question by pressing the yellow button "Next...".
 
 ## How it looks like
 ![Game Window](/img/image_2.png)
