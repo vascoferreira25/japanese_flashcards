@@ -103,7 +103,7 @@ class MainWindow:
         answer = pygame.draw.rect(self.main_window, Color(color), (left, top, width, height))
         self.main_window.blit(self.answer_font.render(text, True, Color('Black')), (left + 50, top))
 
-        # highlight mouseover rectangle
+        # highlight mouse-over rectangle
         if answer.collidepoint(pygame.mouse.get_pos()):
             answer = pygame.draw.rect(self.main_window, Color(highlight), (left, top, width, height))
             self.main_window.blit(self.answer_font.render(text, True, Color('Black')), (left + 50, top))
